@@ -1,0 +1,40 @@
+{
+    "slider-layout#home": {
+    "children": ["info-card#1", "info-card#2" ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "info-card#1": {
+    "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://s2.glbimg.com/vl0yG8exeWwc-ObvbkaC3wGC3Tg=/smart/e.glbimg.com/og/ed/f/original/2019/01/24/20-produtos-tecnologia-para-casa-ces35.jpg",
+        "headline": "Controlux SmartLight",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/product",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+        
+        
+    }
+  },
+  "info-card#2": {
+    "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://i.mlcdn.com.br/1500x1500/215144900a.jpg",
+        "headline": "Controlux SmartClick",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/product",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+    }
+  }
+
+  
+}

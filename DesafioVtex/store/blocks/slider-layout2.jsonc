@@ -1,0 +1,40 @@
+{
+    "slider-layout#home2": {
+    "children": ["info-card#3", "info-card#4" ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+        
+        
+      }
+    }
+  },
+
+  "info-card#3": {
+    "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHqQfVkXk4jzWPr2662bLjo3hpBLPAmlEPw&usqp=CAU",
+        "headline": "Controlux SmartCam",
+        "callToActionText": "FIND OUT",
+        "callToActionUrl": "/product",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+        
+        
+    }
+  },
+  "info-card#4": {
+    "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_757633-CBT44035107699_112020-O.webp",
+        "headline": "Controlux SmartDoor",
+        "callToActionText": "FIND OUT",
+        "callToActionUrl": "/product",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+    }
+  }
+}
